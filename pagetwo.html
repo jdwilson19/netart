@@ -4,11 +4,49 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>🐺Club Wolf🐺</title>
-        <meta name="description" content="">
+        <meta name="description" content="Net Art Project by Janell Wilson">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
-    
+    <body id="dress">
+        <h2>Create Your Wolf</h2>
+        <img id="wolf" src="img/wolf_red.png" alt="red wolf">
+
+        <div class="flexbox">
+            <div class="child"> 
+                <button class="red" onclick="changeImage('img/wolf_red.png')">red</button>
+            </div>
+            <div class="child"> 
+                <button class="orange" onclick="changeImage('img/wolf_orange.png')">orange</button>
+            </div>
+            <div class="child"> 
+                <button class="yellow" onclick="changeImage('img/wolf_yellow.png')">yellow</button>
+            </div>
+            <div class="child"> 
+                 <button class="green" onclick="changeImage('img/wolf_green.png')">green</button>
+            </div>
+            <div class="child"> 
+                <button class="blue" onclick="changeImage('img/wolf_blue.png')">blue</button>
+            </div>
+            <div class="child">
+                <button class="indigo" onclick="changeImage('img/wolf_indigo.png')">indigo</button>
+            </div>
+            <div class="child">
+                <button class="purple" onclick="changeImage('img/wolf_purple.png')">purple</button>
+            </div>
+            <div class="child">
+                <button class="pink" onclick="changeImage('img/wolf_pink.png')">pink</button>
+            </div>
+            <div class="child">
+                <button class="grey" onclick="changeImage('img/wolf_grey.png')">grey</button>
+            </div>
+        </div>
+
+        <script>
+            function changeImage(fileName) {
+                let img = document.querySelector('#wolf');
+                img.setAttribute('src', fileName);
+            }
+        </script>
     </body>
 </html>

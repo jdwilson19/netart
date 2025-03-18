@@ -1,3 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@font-face {
+    font-family: clubp;
+    src: url(/font/clubp.TTF);
+}
+
 body{
     background-color: #00BBE3;
+    font-family: "Inter", sans-serif;
 }
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    width: 30%;
+}
+
+a{
+    text-decoration: none;
+}
+
+h3{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    color: #FFFBCB;
+    font-size: x-large;
+}
+
+#dress{
+    background-color: #FFFBCB;
+}
+
+h2{
+    font-family: clubp;
+    color: #005EA0;
+}
+
+.box {
+    width: 100px;
+    height: 50px;
+    background-color: #904010;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+  }
+
+  .red{
+    background-color: #CB0105;
+    padding: 15px 32px;
+    font-family: "Inter", sans-serif;
+    color: #FFFBCB;
+    font-size: large;
+    border: none;
+  }
+
+  .orange{
+    background-color: #FF6504;
+    padding: 15px 32px;
+    font-family: "Inter", sans-serif;
+    color: #FFFBCB;
+    font-size: large;
+    border: none;
+  }
+
+  .yellow{
+    background-color: #FFCD00;
+    padding: 15px 32px;
+    font-family: "Inter", sans-serif;
+    color: #FFFBCB;
+    font-size: large;
+    border: none;
+  }
+
+  .green{
+    background-color: #8CE706;
+    padding: 15px 32px;
+    font-family: "Inter", sans-serif;
+    color: #FFFBCB;
+    font-size: large;
+    border: none;
+  }
+
+  .blue{
+    background-color: #003467;
+    padding: 15px 32px;
+    font-family: "Inter", sans-serif;
+    color: #FFFBCB;
+    font-size: large;
+    border: none;
+  }
+
+  .indigo{
+    background-color: #0099CF;
+    padding: 15px 32px;
+    font-family: "Inter", sans-serif;
+    color: #FFFBCB;
+    font-size: large;
+    border: none;
+  }
+
+  .purple{
+    background-color: #650393;
+    padding: 15px 32px;
+    font-family: "Inter", sans-serif;
+    color: #FFFBCB;
+    font-size: large;
+    border: none;
+  }
+
+  .pink{
+    background-color: #FD339A;
+    padding: 15px 32px;
+    font-family: "Inter", sans-serif;
+    color: #FFFBCB;
+    font-size: large;
+    border: none;
+  }
+
+  .grey{
+    background-color: #333333;
+    padding: 15px 32px;
+    font-family: "Inter", sans-serif;
+    color: #FFFBCB;
+    font-size: large;
+    border: none;
+  }
+
+  .flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+
+  .child{
+    flex: 1 0 33%;
+  }

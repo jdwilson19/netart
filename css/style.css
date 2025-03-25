@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 @font-face {
-    font-family: clubp;
-    src: url(/font/clubp.TTF);
+    font-family: 'clubp';
+    src: url('font/clubp.TTF');
 }
 
 body{
     background-color: #00BBE3;
     font-family: "Inter", sans-serif;
+    cursor: url('/img/wolf_paw_cursor.png'), 16 16, auto;
 }
 
 .center{
@@ -29,15 +30,6 @@ h3{
     font-size: x-large;
 }
 
-#dress{
-    background-color: #FFFBCB;
-}
-
-h2{
-    font-family: clubp;
-    color: #005EA0;
-}
-
 .box {
     width: 100px;
     height: 50px;
@@ -49,96 +41,186 @@ h2{
     margin-left: auto;
     margin-right: auto;
     margin-top: 3%;
-  }
+}
 
-  .red{
+#dress{
+    background-color: #FFFBCB;
+    font-family: "Inter", sans-serif;
+    color: #FFFBCB;
+}
+
+h2{
+    font-family: 'clubp', sans-serif;
+    color: #005EA0;
+    text-align: center;
+    font-size: 230%;
+    margin-top: 20%;
+}
+
+.red{
     background-color: #CB0105;
-    padding: 15px 32px;
-    font-family: "Inter", sans-serif;
-    color: #FFFBCB;
-    font-size: large;
     border: none;
-  }
+    padding: 50px 50px;
+    border-radius: 25px;
+}
 
-  .orange{
+.orange{
     background-color: #FF6504;
-    padding: 15px 32px;
-    font-family: "Inter", sans-serif;
-    color: #FFFBCB;
-    font-size: large;
     border: none;
-  }
+    padding: 50px 50px;
+    border-radius: 25px;
+}
 
-  .yellow{
+.yellow{
     background-color: #FFCD00;
-    padding: 15px 32px;
-    font-family: "Inter", sans-serif;
-    color: #FFFBCB;
-    font-size: large;
     border: none;
-  }
+    padding: 50px 50px;
+    border-radius: 25px;
+}
 
-  .green{
+.green{
     background-color: #8CE706;
-    padding: 15px 32px;
-    font-family: "Inter", sans-serif;
-    color: #FFFBCB;
-    font-size: large;
     border: none;
-  }
+    padding: 50px 50px;
+    border-radius: 25px;
+}
 
-  .blue{
+.blue{
     background-color: #003467;
-    padding: 15px 32px;
-    font-family: "Inter", sans-serif;
-    color: #FFFBCB;
-    font-size: large;
     border: none;
-  }
+    padding: 50px 50px;
+    border-radius: 25px;
+}
 
-  .indigo{
+.indigo{
     background-color: #0099CF;
-    padding: 15px 32px;
-    font-family: "Inter", sans-serif;
-    color: #FFFBCB;
-    font-size: large;
     border: none;
-  }
+    padding: 50px 50px;
+    border-radius: 25px;
+}
 
-  .purple{
+.purple{
     background-color: #650393;
-    padding: 15px 32px;
-    font-family: "Inter", sans-serif;
-    color: #FFFBCB;
-    font-size: large;
     border: none;
-  }
+    padding: 50px 50px;
+    border-radius: 25px;
+}
 
-  .pink{
+.pink{
     background-color: #FD339A;
-    padding: 15px 32px;
-    font-family: "Inter", sans-serif;
-    color: #FFFBCB;
-    font-size: large;
     border: none;
-  }
+    padding: 50px 50px;
+    border-radius: 25px;
+}
 
-  .grey{
+.grey{
     background-color: #333333;
-    padding: 15px 32px;
-    font-family: "Inter", sans-serif;
-    color: #FFFBCB;
-    font-size: large;
     border: none;
-  }
+    padding: 50px 50px;
+    border-radius: 25px;
+}
 
-  .flexbox{
+.flexbox_baby2{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
+    row-gap: 5%;
     align-content: space-between;
-  }
+    justify-content: center;
+    width: 50%;
+    margin-left: 235px;
+    border: 5px solid #904010;
+    border-radius: 25px;
+    padding: 30px;
+    margin-top: -10%;
+    height: 55%;
+}
 
-  .child{
-    flex: 1 0 33%;
-  }
+.child{
+    flex-basis: 33%;
+    text-align: center;
+}
+
+.bigboy{
+    display: flex;
+    column-gap: 80px;
+}
+
+.left{
+    width: 30%;
+    border: 5px solid #904010;
+    border-radius: 30px;
+    height: 700px;
+    margin-left: 7%;
+    margin-top: .5%;
+}
+
+.baby1{
+    height: 300px;
+    width: 60%;
+    margin-left: 25%;
+    margin-top: -7%;
+}
+
+.custom-cursor {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    pointer-events: none; /* Ensures the cursor doesn't interfere with other elements */
+    transition: transform 0.1s ease;
+}
+
+#nyw{
+    margin-top: 4%;
+}
+
+.center2{
+    width: 30%;
+    border: 5px solid #904010;
+    border-radius: 30px;
+    height: 50%;
+    margin-top: auto;
+    align-items: center;
+    margin: auto;
+
+}
+
+input{
+    background-color: #FFFBCB;
+    font-family: "Inter", sans-serif;
+    color:#904010;
+    border: 5px solid #904010;
+    border-radius: 30px;
+    width: 60%;
+    height: 40px;
+    font-size: medium;
+    text-align: center;
+}
+
+.cb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -6%;
+    margin-bottom: 10%;
+}
+
+@media (max-width: 480px) {
+    .bigboy {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left, .right {
+        width: 100%; /* Full width on very small screens */
+    }
+
+    .box {
+        width: 150px;
+        height: 40px;
+    }
+
+    button {
+        padding: 15px;
+    }
+}
